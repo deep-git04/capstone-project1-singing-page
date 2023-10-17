@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+body{
+    margin-left: 9%;
+}
+header{
+   margin:20px 0 0 ; 
+}
+.head{
+    align-content: center;
+    display: inline-flex;
+}
+.image{
+    padding-top: 10px;
+    color:rgb(4, 4, 249);
+}
+.name{
+    padding-top: 10px;
+    font-weight:550;
+}
+.sing-in-main{
+    display: flex;
+    justify-content: center; 
+ 
+}
+.sing-in{
+    position: relative;
+    left: -4px;
+    top: 70px;
+}
+.sing-in h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    position: relative;
+    left: -6px;
+}
+.email {
+    font-size: 14px;
+    margin-bottom: 15px;
+}  
+.e-form input{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 4px;  
+    
+}
+
+.password{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.p-form input{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 4px;  
+}
+.p-form span{
+    position: relative;
+    left: -30px;
+    top: 5px;
+    color: rgb(60, 60, 60);
+}
+.checkbox{
+    font-size: 13px;
+    display:flex;
+}
+.checkbox input{
+    margin-right: 4px;
+    font-size: 50px;
+}
+.checkbox p{
+    margin-left: 123px;
+   
+}
+.continue-e{
+    height: 30px;
+    width: 350px;
+    background-color: rgba(0, 0, 255, 0.642);;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;  
+    margin: 20px 0;
+}
+.other-opsation{
+    margin-top: 20px;
+    text-align: center;
+    display: inline-flex;
+   
+}
+  
+.other-opsation .pmidel{
+    position: relative;
+    top: -10px; 
+    padding: 0 12px;
+    font-size: 14px;
+} 
+.other-opsation .p1st{
+    width: 80px;
+    border-top: 1px solid rgb(187, 187, 187);
+}
+.other-opsation .p2nd{
+    width: 100px;
+    border-top: 1px solid rgb(187, 187, 187);
+}
+.continue-g{
+    text-align: center;
+    border: 1px solid rgb(187, 187, 187);
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 18px;
+   
+}
+.continue-g p{
+    display: inline-flex;
+    padding-top: 10px;
+}
+.continue-g img{
+    position: relative;
+    top: 5px;
+    
+}
+
+.continue-f{
+    text-align: center;
+    border: 1px solid rgb(187, 187, 187);
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(78, 84, 168);
+   
+}
+.continue-f p{
+    display: inline-flex;
+    color: white;
+    position: relative;
+    top: -2.5px;
+}
+.continue-f img{
+    position: relative;
+    top: 5px;   
+}
+
+.creat-account{
+    margin-top: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+.sing-in a{
+    text-decoration: none;
+    color: blue;
+}
